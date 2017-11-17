@@ -34,13 +34,13 @@
     <div id="map"></div>
     <script>
       function initMap() {
-        var uluru = {lat: 42.169, lng: -88.883};
+        var shelter = {lat: 42.169, lng: -88.883};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 4,
-          center: uluru
+          center: shelter
         });
         var marker = new google.maps.Marker({
-          position: uluru,
+          position: shelter,
           map: map
         });
       }
