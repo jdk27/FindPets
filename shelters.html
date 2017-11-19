@@ -57,14 +57,19 @@
     <div id="map"></div>
     <script>
       function initMap() {
-        var shelter = {lat: 42.169, lng: -88.883};
+        var shelter1 = {lat: 42.169, lng: -88.883};
+        var shelter2 = {lat:41.917, lng: - .87.658};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 7,
-          center: shelter
+          center: shelter1
         });
         var marker = new google.maps.Marker({
-          position: shelter,
+          position: shelter1,
           map: map
+        });
+        var marker2 = new google.maps.Marker({
+          position: shelter2,
+          map:map
         });
       }
     </script>
