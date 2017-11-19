@@ -52,7 +52,7 @@
     <br>
     <br>
     <br>
-    <h2 class="section-heading-lost-pets"> Shelters123</h2>
+    <h2 class="section-heading-lost-pets"> Shelters1234</h2>
  
     <div id="map"></div>
     <script>
@@ -64,10 +64,17 @@
         });
         var marker = new google.maps.Marker({
           position: shelter,
+          label: "A",
           map: map
         });
         var marker = new google.maps.Marker({
           position: {lat: 42.013, lng: - 87.689},
+          label: "B",
+          map:map
+        });
+          var marker = new google.maps.Marker({
+          position: {lat: 41.917, lng: - 87.658},
+          label: "C",
           map:map
         });
       }
