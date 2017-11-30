@@ -58,14 +58,14 @@
   <form action="thankyou.html">
     <div class = "form_wrapper_2">
     <div id = "row1_2">
-    <div class = "col_1_2"> Pets Name: </div>
-    <div class = "col_2_2"> Type of Pet (dog, cat, etc.): </div>
+    <div class = "col_1_2"> Pets Name<sup>*</sup>: </div>
+    <div class = "col_2_2"> Type of Pet (dog, cat, etc.)<sup>*</sup>: </div>
     <input type="text" class = "col_1_2" required data-validation-required-message="Please enter the pet name.">
     <input type="text" class = "col_2_2" required data-validation-required-message="Please enter the breed.">
     </div>
     <div id = "row2_2">
     <div class = "col_1_2">
-    Gender of Pet (optional):
+    Gender of Pet:
     <div class = "gender_buttons">
   <input type = "radio" name="gender"> Male <br>
   <input type = "radio" name="gender"> Female <br>
@@ -73,7 +73,7 @@
 </div>
 </div>
 <div class = "col_2_2">
-  Estimated Size of Pet (optional):
+  Estimated Size of Pet:
   <div class = "gender_buttons">
     <input type = "radio" name="size"> Small (0-20 lbs) <br>
     <input type = "radio" name="size"> Medium (25-50 lbs) <br>
@@ -82,19 +82,19 @@
 </div>
 </div>
 <div id = "row3_2">
-  <div class = "col_1_2"> Breed of Pet: </div>
+  <div class = "col_1_2"> Breed of Pet<sup>*</sup>: </div>
   <div class = "col_2_2"> City where pet was lost: </div>
   <input type="text" class = "col_1_2">
   <input type="text" class = "col_2_2" required data-validation-required-message="Please enter the city.">
 </div>
 
-Intersection nearest where pet was lost (ex: Main St/3rd St): <br>
+Intersection nearest where pet was lost (ex: Main St/3rd St)<sup>*</sup>: <br>
 <input type="text" class = "intersection_text" required data-validation-required-message="Please enter the intersection">
 <br>
 
 <div id = "row4_2">
-  <div class = "col_1_2"> Color/markings on pet: </div>
-  <div class = "col_2_2"> Pet was (optional): </div>
+  <div class = "col_1_2"> Color/markings on pet<sup>*</sup>: </div>
+  <div class = "col_2_2"> Pet was: </div>
   <input type="text" class = "markings_text" required data-validation-required-message="Please enter markings/color">
   <div class = "details_input">
     <input type = "checkbox" name="details"> Wearing collar or harness <br>
@@ -107,7 +107,7 @@ Intersection nearest where pet was lost (ex: Main St/3rd St): <br>
   </div>
 </div>
 
-<p class = "upload_text"> Upload a full body picture of the lost pet: </p>
+<p class = "upload_text"> Upload a full body picture of the lost pet<sup>*</sup>: </p>
 <div id = "row5_2">
   <input type = "file" multiple="false" accept = "image/*" id = "finput" onchange = "upload()" required data-validation-required-message="Please upload a picture.">
 </div>
